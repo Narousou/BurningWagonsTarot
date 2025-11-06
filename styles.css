@@ -2,8 +2,8 @@
 
 h1 {
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
     color: white;
 }
 
@@ -40,15 +40,19 @@ h1 {
   
 }
 
-#cardBlock {
+#card_block {
   text-align: center;
   place-items: center;
   
 }
 
 
-#inverse {
+#reversed {
   transform: rotate(180deg);
+}
+
+#upright {
+  transform: rotate(0deg);
 }
 
 
