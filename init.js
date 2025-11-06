@@ -3,6 +3,7 @@ var w = 300;
 var h = 507;
 
 Deck = [];
+activeDeck = [];
 
 class Card {
 
@@ -30,6 +31,17 @@ class Card {
         cardlocal.appendChild(this.img);
     }
 
+}
+
+
+
+function loadDeck()
+{
+    activeDeck = [];
+    for (let i = 0; i < Deck.length; i++)
+    {
+        activeDeck.push(Deck[i]);
+    }
 }
 
 function getRandomInt(min, max) 
